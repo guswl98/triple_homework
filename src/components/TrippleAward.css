@@ -1,0 +1,9 @@
+.award_logo {
+  background-image: url(../assets/triple@2x.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  padding-top: 285px;
+  color: rgb(94, 94, 94);
+}
