@@ -7,8 +7,10 @@ import TrippleAward from './TrippleAward';
 export default function App() {
   return (
     <div className="App">
-      <TrippleAward />
-      <div>
+      <DelayedCompoent delay={0}>
+        <TrippleAward />
+      </DelayedCompoent>
+      <div className="container">
         <DelayedCompoent delay={100}>
           <Statistics />
         </DelayedCompoent>

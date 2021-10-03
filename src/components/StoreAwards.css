@@ -19,4 +19,5 @@
 
 .app_store_img {
   background-image: url(../assets//app-store@2x.png);
+  margin-left: 20px;
 }
