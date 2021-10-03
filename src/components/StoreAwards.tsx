@@ -2,7 +2,7 @@ import './StoreAwards.css';
 
 export default function StoreAwards() {
   return (
-    <div className="store_awards">
+    <div className="store_awards fade-in">
       <div className="store_img play_store_img bold">
         <span>
           2018 구글 플레이스토어 <br />

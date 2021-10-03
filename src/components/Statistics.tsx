@@ -2,7 +2,7 @@ import './Statistics.css';
 
 export default function Statistics() {
   return (
-    <div className="statistics_text_container">
+    <div className="statistics_text_container fade-in">
       <div>
         <span className="bold">350만 명</span>의 사용자
       </div>
