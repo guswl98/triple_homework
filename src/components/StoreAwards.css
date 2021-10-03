@@ -1,0 +1,22 @@
+.store_awards {
+  display: flex;
+}
+
+.store_img {
+  background-repeat: no-repeat;
+  background-size: 54px 54px;
+  height: 54px;
+  font-size: 14px;
+  color: #3a3a3acc;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.play_store_img {
+  background-image: url(../assets//play-store@2x.png);
+}
+
+.app_store_img {
+  background-image: url(../assets//app-store@2x.png);
+}
