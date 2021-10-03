@@ -6,13 +6,27 @@ type Props = {
 };
 
 export default function DelayedCompoent({ delay, children }: Props) {
-  const [show, setShow] = useState<boolean>(false);
+  const [visibility, setVisibility] = useState<boolean>(false);
 
   useEffect(() => {
-    setTimeout(() => {
-      setShow(true);
-    }, delay);
+    setVisibility(false);
   }, []);
 
-  return show ? <>{children}</> : <></>;
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisibility(true);
+    }, delay);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [delay]);
+
+  return (
+    <div
+      className={`${visibility ? 'visible' : 'invisible'}`}
+      style={{ visibility: visibility ? 'visible' : 'hidden' }}
+    >
+      {children}
+    </div>
+  );
 }
