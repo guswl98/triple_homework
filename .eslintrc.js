@@ -23,6 +23,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
+    'no-restricted-properties': 0,
     'linebreak-style': 0,
     'import/prefer-default-export': 0,
     'import/extensions': 0,
@@ -32,6 +33,8 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'react/require-default-props': 0,
     'no-shadow': 0,
+    'no-return-assign': 0,
+    'no-param-reassign': 0,
     'react/prop-types': 0,
     'react/jsx-filename-extension': [
       2,
