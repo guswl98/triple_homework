@@ -1,11 +1,11 @@
-import Counter from './Counter';
+import Counter from './Counter/Counter';
 import './Statistics.css';
 
 export default function Statistics() {
   const userNum = 350;
   const reviewNum = 21;
   const storeNum = 650;
-  const duration = 3000;
+  const duration = 2500;
 
   return (
     <div className="statistics_text_container fade_in">
