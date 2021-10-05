@@ -1,5 +1,5 @@
 import Counter from './common/Counter';
-import './Statistics.css';
+import '../styles/Statistics.css';
 
 export default function Statistics() {
   const userNum = 350;

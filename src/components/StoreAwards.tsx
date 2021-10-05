@@ -1,4 +1,4 @@
-import './StoreAwards.css';
+import '../styles/StoreAwards.css';
 
 export default function StoreAwards() {
   return (

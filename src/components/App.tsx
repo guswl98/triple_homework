@@ -1,4 +1,4 @@
-import './App.css';
+import '../styles/App.css';
 import DelayedComponent from './common/DelayComponent';
 import Statistics from './Statistics';
 import StoreAwards from './StoreAwards';
