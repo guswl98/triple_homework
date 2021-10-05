@@ -1,22 +1,22 @@
+import { useEffect, useState } from 'react';
 import '../styles/App.css';
-import DelayedComponent from './common/DelayComponent';
 import Statistics from './Statistics';
 import StoreAwards from './StoreAwards';
 import TrippleAward from './TrippleAward';
 
 export default function App() {
+  const [visiblility, setVisibility] = useState<boolean>(false);
+
+  useEffect(() => {
+    setVisibility(true);
+  }, []);
+
   return (
-    <div className="App">
-      <DelayedComponent delay={0}>
-        <TrippleAward />
-      </DelayedComponent>
+    <div className={`App ${visiblility ? 'visible' : ''}`}>
+      <TrippleAward />
       <div className="container">
-        <DelayedComponent delay={100}>
-          <Statistics />
-        </DelayedComponent>
-        <DelayedComponent delay={200}>
-          <StoreAwards />
-        </DelayedComponent>
+        <Statistics />
+        <StoreAwards />
       </div>
     </div>
   );
