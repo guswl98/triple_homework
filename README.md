@@ -1,5 +1,24 @@
 # 신현지 트리플 프론트엔드 과제
 
+## 프로젝트 구성
+
+```
+├─ pulic
+│ ├─ manifest.json
+│ └─ index.html     : DOM root
+├─ src
+│ ├─ components     : React components
+│ │  └─ common      : Common components
+│ ├─ utils          : Functions
+│ ├─ styles         : css files
+│ ├─ index.tsx
+│ └─ assets         : imgs
+├─ tsconfig.json
+├─ package.json
+├─ .eslintrc.js
+└─ .prettierrc
+```
+
 ## Dependencies
 
 - Git
@@ -39,7 +58,7 @@ $ npm start
 ### Formatting
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/43779313/135983962-0c23e229-394f-420a-b861-ff501a61bf0a.png" alt="Eslint" height="100" style="margin-right:50;"/>
+  <img src="https://user-images.githubusercontent.com/43779313/135983962-0c23e229-394f-420a-b861-ff501a61bf0a.png" alt="Eslint" height="100"/>
   <img src="https://raw.githubusercontent.com/prettier/prettier-logo/e638a708b41a176a46cfbbf9d3ed4910132df265/images/prettier-avatar-dark.svg" alt="Prettier" height="100"/>
 </p>
 
