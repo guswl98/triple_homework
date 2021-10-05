@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --darkgrey: rgb(58, 58, 58);
+  --middlegrey: rgba(58, 58, 58, 0.8);
+  --grey: rgb(94, 94, 94);
+}
+
 .bold {
   font-weight: bold;
 }
