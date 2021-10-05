@@ -37,12 +37,14 @@ $ git clone https://github.com/guswl98/triple_homework.git
 ## Execute
 
 ```
+$ yarn install
 $ yarn start
 ```
 
 or
 
 ```
+$ npm install
 $ npm start
 ```
 
