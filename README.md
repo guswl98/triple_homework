@@ -1,5 +1,9 @@
 # 신현지 트리플 프론트엔드 과제
 
+## 미리보기
+
+<img src="https://user-images.githubusercontent.com/43779313/136010049-d5869992-1b12-4e4b-add1-3beaefb9601f.gif" width="800"/>
+
 ## 프로젝트 구성
 
 ```
