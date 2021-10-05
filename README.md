@@ -4,15 +4,15 @@
 
 ```
 ├─ pulic
-│ ├─ manifest.json
-│ └─ index.html     : DOM root
+│ ├─ index.html     : DOM root
+│ └─ manifest.json
 ├─ src
+│ ├─ assets         : imgs
 │ ├─ components     : React components
 │ │  └─ common      : Common components
-│ ├─ utils          : Functions
 │ ├─ styles         : css files
-│ ├─ index.tsx
-│ └─ assets         : imgs
+│ ├─ utils          : Functions
+│ └─ index.tsx
 ├─ tsconfig.json
 ├─ package.json
 ├─ .eslintrc.js
