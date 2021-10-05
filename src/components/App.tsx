@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import '../styles/App.css';
 import Statistics from './Statistics';
 import StoreAwards from './StoreAwards';
-import TrippleAward from './TrippleAward';
+import TripleAward from './TripleAward';
 
 export default function App() {
   const [visiblility, setVisibility] = useState<boolean>(false);
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className={`App ${visiblility ? 'visible' : ''}`}>
-      <TrippleAward />
+      <TripleAward />
       <div className="container">
         <Statistics />
         <StoreAwards />
