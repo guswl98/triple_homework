@@ -5,7 +5,6 @@ export default function Statistics() {
   const userNum = 350;
   const reviewNum = 21;
   const storeNum = 650;
-  const duration = 2500;
 
   const getDuration = (startNumber: number, endNumber: number): number => {
     return (endNumber - startNumber).toString().length * 800;
