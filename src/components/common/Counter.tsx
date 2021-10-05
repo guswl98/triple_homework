@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { easeOutExpo } from './easeFunctions';
+import { easeOutExpo } from '../../utils/animations';
 
 type Props = {
   startNumber: number;

@@ -1,4 +1,4 @@
-import Counter from './Counter/Counter';
+import Counter from './common/Counter';
 import './Statistics.css';
 
 export default function Statistics() {

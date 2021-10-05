@@ -5,7 +5,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-export default function DelayedCompoent({ delay, children }: Props) {
+export default function DelayedComponent({ delay, children }: Props) {
   const [visibility, setVisibility] = useState<boolean>(false);
 
   useEffect(() => {

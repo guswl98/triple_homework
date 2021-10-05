@@ -1,5 +1,5 @@
 import './App.css';
-import DelayedCompoent from './DelayComponent';
+import DelayedComponent from './common/DelayComponent';
 import Statistics from './Statistics';
 import StoreAwards from './StoreAwards';
 import TrippleAward from './TrippleAward';
@@ -7,16 +7,16 @@ import TrippleAward from './TrippleAward';
 export default function App() {
   return (
     <div className="App">
-      <DelayedCompoent delay={0}>
+      <DelayedComponent delay={0}>
         <TrippleAward />
-      </DelayedCompoent>
+      </DelayedComponent>
       <div className="container">
-        <DelayedCompoent delay={100}>
+        <DelayedComponent delay={100}>
           <Statistics />
-        </DelayedCompoent>
-        <DelayedCompoent delay={200}>
+        </DelayedComponent>
+        <DelayedComponent delay={200}>
           <StoreAwards />
-        </DelayedCompoent>
+        </DelayedComponent>
       </div>
     </div>
   );
