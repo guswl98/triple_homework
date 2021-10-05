@@ -4,6 +4,6 @@
   background-repeat: no-repeat;
   width: 400px;
   padding-top: 285px;
-  color: rgb(94, 94, 94);
+  color: var(--grey);
   text-align: center;
 }

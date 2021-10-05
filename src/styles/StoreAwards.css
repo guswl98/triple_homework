@@ -2,12 +2,16 @@
   display: flex;
 }
 
+.visible .store_awards {
+  transition-delay: 200ms;
+}
+
 .store_img {
   background-repeat: no-repeat;
   background-size: 54px 54px;
   height: 54px;
   font-size: 14px;
-  color: #3a3a3acc;
+  color: var(--middlegrey);
   padding-left: 60px;
   display: flex;
   align-items: center;
