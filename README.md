@@ -14,6 +14,7 @@
 │ ├─ assets         : imgs
 │ ├─ components     : React components
 │ │  └─ common      : Common components
+│ ├─ constants      : Constants for strings
 │ ├─ styles         : css files
 │ ├─ utils          : Functions
 │ └─ index.tsx
